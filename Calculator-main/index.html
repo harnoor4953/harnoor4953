@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">    
+    <!-- Stye Sheet-->   
+ <link rel="stylesheet" href="style.css" media="screen">
+ <link rel="icon" type="image/x-icon" href="/assets/faviconCalc.ico"/>
+ <link rel="icon" type="image/x-icon" href="calculator-2017-10-10.webp"/>
+</head>
+    <body>
+      <div id="head">
+        <h1 id="headTitle">Calculator</h1>
+      </div>
+        <div id="container">
+          <div id="topDisplay" class="display">
+          </div>
+          <div id="totalScreen" class="display">0</div>
+            <div id="keysContainer">
+              <button id="addOp" class="keys" data-action="add">+</button>
+              <button id="subtractOp" class="keys" data-action="subtract">-</button>
+              <button id="multiplyOp" class="keys" data-action="multiply">x</button>
+              <button id="divideOp" class="keys" data-action="divide">÷</button>
+              <button id="7-" class="keys">7</button>
+              <button id="8-" class="keys">8</button>
+              <button id="9-" class="keys">9</button>
+              <button id="AC" class="keys" data-action="clear">AC</button>
+              <button id="equalsSign" class="keys" data-action="equals">=</button>
+              <button id="4-" class="keys">4</button>
+              <button id="5-" class="keys">5</button>
+              <button id="6-" class="keys">6</button>
+              <button id="1-" class="keys">1</button>
+              <button id="2-" class="keys">2</button>
+              <button id="3-" class="keys">3</button>
+              <button id="0-" class="keys">0</button>
+              <button id="decimalBtn" class="keys" data-action="decimal">.</button>
+              <button id="delBtn" class="keys" data-action="del">C</button>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
